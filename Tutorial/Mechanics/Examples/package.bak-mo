@@ -1,0 +1,3 @@
+within Tutorial.Mechanics;
+package Examples "For complete system models"
+end Examples;

@@ -1,0 +1,3 @@
+within Tutorial.Mechanics;
+package Interfaces "For connectors etc."
+end Interfaces;

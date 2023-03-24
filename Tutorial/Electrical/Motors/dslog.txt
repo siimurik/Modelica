@@ -1,0 +1,34 @@
+Log-file of program ./dymosim
+(generated: Fri Mar 24 15:10:47 2023)
+
+dymosim started
+... "Tutorial.Mechanics.MultiBody.Examples.BouncingBall" simulating
+... "dsin.txt" loading (dymosim input file)
+... "BouncingBall.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 9
+  WARNING: You have many state events. It might be due to chattering.
+  Enable logging of event in Simulation/Setup/Debug/Events during simulation
+   CPU-time for integration                : 0.003 seconds
+   CPU-time for one grid interval          : 0.006 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 866
+   Number of grid points                   : 501
+   Number of accepted steps                : 1082
+   Number of f-evaluations (dynamics)      : 1082
+   Number of crossing function evaluations : 3135
+   Number of Jacobian-evaluations          : 989
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 182
+   Number of step events                   : 0
+   Minimum integration stepsize            : 2.27e-07
+   Maximum integration stepsize            : 0.47
+   Maximum integration order               : 3
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Tutorial.Mechanics.MultiBody.Examples.BouncingBall

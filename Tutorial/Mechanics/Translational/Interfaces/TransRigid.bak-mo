@@ -1,0 +1,4 @@
+within Tutorial.Mechanics.Translational.Interfaces;
+partial model TransRigid
+  extends TransTwoConnector;
+end TransRigid;
