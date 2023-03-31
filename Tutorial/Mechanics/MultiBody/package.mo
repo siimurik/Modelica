@@ -1,3 +1,3 @@
 within Tutorial.Mechanics;
-package MultiBody
+package MultiBody "Package of multibody components and models"
 end MultiBody;
