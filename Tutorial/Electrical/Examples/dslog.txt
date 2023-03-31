@@ -1,31 +1,31 @@
 Log-file of program ./dymosim
-(generated: Fri Mar 31 13:16:08 2023)
+(generated: Fri Mar 31 19:31:00 2023)
 
 dymosim started
-... "Tutorial.Electrical.Examples.TestCircuit" simulating
+... "Tutorial.AdvancedModelica.Replaceable.Examples.SpringInertia" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "TestCircuit.mat" creating (simulation result file)
+... "SpringInertia.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
-Integration terminated successfully at T = 8
+Integration terminated successfully at T = 10
    CPU-time for integration                : 0.001 seconds
    CPU-time for one grid interval          : 0.002 milliseconds
    CPU-time for initialization             : 0 seconds
    Number of result points                 : 502
    Number of grid points                   : 501
-   Number of accepted steps                : 68
-   Number of f-evaluations (dynamics)      : 125
-   Number of Jacobian-evaluations          : 18
+   Number of accepted steps                : 673
+   Number of f-evaluations (dynamics)      : 1365
+   Number of Jacobian-evaluations          : 39
    Number of model time events             : 0
    Number of input time events             : 0
    Number of state events                  : 0
    Number of step events                   : 0
-   Minimum integration stepsize            : 7.87e-07
-   Maximum integration stepsize            : 0.413
+   Minimum integration stepsize            : 1e-09
+   Maximum integration stepsize            : 0.028
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
 
-SUCCESSFUL simulation of Tutorial.Electrical.Examples.TestCircuit
+SUCCESSFUL simulation of Tutorial.AdvancedModelica.Replaceable.Examples.SpringInertia
