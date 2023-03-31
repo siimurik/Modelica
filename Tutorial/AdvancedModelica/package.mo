@@ -1,3 +1,3 @@
 within Tutorial;
-package AdvancedModelica
+package AdvancedModelica "Advanced Modelica tutorials"
 end AdvancedModelica;
