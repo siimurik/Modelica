@@ -1,3 +1,3 @@
 within Tutorial;
-package Mechanics
+package Mechanics "Package of mechanical components"
 end Mechanics;
