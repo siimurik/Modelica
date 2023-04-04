@@ -1,31 +1,31 @@
 Log-file of program ./dymosim
-(generated: Fri Mar 31 19:31:00 2023)
+(generated: Tue Apr  4 18:47:23 2023)
 
 dymosim started
-... "Tutorial.AdvancedModelica.Replaceable.Examples.SpringInertia" simulating
+... "Tutorial.Mechanics.MultiBody.Examples.SpringMass_MSL" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "SpringInertia.mat" creating (simulation result file)
+... "SpringMass_MSL.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
-Integration terminated successfully at T = 10
+Integration terminated successfully at T = 5
    CPU-time for integration                : 0.001 seconds
    CPU-time for one grid interval          : 0.002 milliseconds
    CPU-time for initialization             : 0 seconds
    Number of result points                 : 502
    Number of grid points                   : 501
-   Number of accepted steps                : 673
-   Number of f-evaluations (dynamics)      : 1365
-   Number of Jacobian-evaluations          : 39
+   Number of accepted steps                : 356
+   Number of f-evaluations (dynamics)      : 708
+   Number of Jacobian-evaluations          : 20
    Number of model time events             : 0
    Number of input time events             : 0
    Number of state events                  : 0
    Number of step events                   : 0
-   Minimum integration stepsize            : 1e-09
-   Maximum integration stepsize            : 0.028
+   Minimum integration stepsize            : 1e-08
+   Maximum integration stepsize            : 0.0266
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
 
-SUCCESSFUL simulation of Tutorial.AdvancedModelica.Replaceable.Examples.SpringInertia
+SUCCESSFUL simulation of Tutorial.Mechanics.MultiBody.Examples.SpringMass_MSL
